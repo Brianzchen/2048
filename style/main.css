@@ -175,6 +175,7 @@ hr {
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
     .game-container .game-message p {
+      color: yellow;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       font-size: 60px;
       font-weight: bold;
@@ -338,6 +339,7 @@ hr {
   .tile.tile-64 .tile-inner {
     background: url("../images/64.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; }
   .tile.tile-128 .tile-inner {
     background: url("../images/128.jpg");
@@ -563,6 +565,7 @@ hr {
       -moz-animation-fill-mode: both;
       animation-fill-mode: both; }
       .game-container .game-message p {
+        color: yellow
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         font-size: 60px;
         font-weight: bold;
