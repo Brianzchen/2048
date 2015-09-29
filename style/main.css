@@ -335,15 +335,17 @@ hr {
   .tile.tile-32 .tile-inner {
     background: url("../images/32.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; }
   .tile.tile-64 .tile-inner {
     background: url("../images/64.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat; }
   .tile.tile-128 .tile-inner {
     background: url("../images/128.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; }
   .tile.tile-256 .tile-inner {
     background: url("../images/256.jpg");
@@ -364,6 +366,7 @@ hr {
   .tile.tile-super .tile-inner {
     background: url("../images/super.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; }
 
 @-webkit-keyframes appear {
